@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.no-arrow {
+    -webkit-appearance: none; /* Para Chrome y Safari */
+    -moz-appearance: none;    /* Para Firefox */
+}
+
+.no-arrow::-ms-expand {
+    display: none;            /* Para Internet Explorer */
+}

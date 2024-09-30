@@ -15,9 +15,9 @@ const RenderNavbarFooter : React.FC<ClientProps> = ({children}) => {
     const showNavbarFooter = pathname !== "/404" && pathname !== "/loadings" ;
 
     return (
-<div>
+<div className="flex flex-col min-h-screen">
     {showNavbarFooter ? <Navbar/> : null}
-    {children}
+    <main className="flex-grow">{children}</main>
     {showNavbarFooter ? <FooterComponent/> : null}
 </div>
     )

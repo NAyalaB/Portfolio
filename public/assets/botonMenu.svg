@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.77 40.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #606060;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="18.32" y="-18.32" width="8.12" height="44.77" transform="translate(26.45 -18.32) rotate(90)"/>
+  <rect class="cls-1" x="18.32" y="-2.07" width="8.12" height="44.77" transform="translate(42.7 -2.07) rotate(90)"/>
+  <rect class="cls-1" x="18.32" y="14.27" width="8.12" height="44.77" transform="translate(59.04 14.27) rotate(90)"/>
+</svg>

@@ -5,8 +5,8 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const FooterComponent: React.FC = () => {
   return (
-    <Footer container>
-      <div className="w-full fixed bottom-4 left-0">
+    <Footer container >
+      <div className="w-full bottom-4 left-0 mt-6" >
         <Footer.Divider />
         <div className="w-full pt-4 sm:flex sm:items-center sm:justify-between">
           <Link href="/perfil">
